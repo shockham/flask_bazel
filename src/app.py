@@ -8,7 +8,3 @@ app = Flask(__name__)
 def hello():
     " The root route "
     return "Hello World!"
-
-
-if __name__ == "__main__":
-    app.run()
